@@ -22,17 +22,61 @@
     .subtitle {
       font-size: 20px;
       color: #555;
+      margin-bottom: 15px;
+    }
+
+    .profile-photo {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 25px;
+    }
+
+    .linkedin {
+      color: #0a66c2;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .linkedin:hover {
+      text-decoration: underline;
+    }
+
+    .research {
+      font-size: 18px;
+      color: #444;
+      margin-top: 25px;
     }
   </style>
 </head>
 
 <body>
 
+  <img
+    src="profile.jpg"
+    alt="Photo of Abhinav Vinod"
+    class="profile-photo"
+  >
+
   <h1>Abhinav Vinod</h1>
 
   <div class="subtitle">
     PhD Student — IIT Bombay
   </div>
+
+  <a
+    class="linkedin"
+    href="https://www.linkedin.com/in/abhinav-vinodabd/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    LinkedIn
+  </a>
+
+  <p class="research">
+    Working on audio machine learning models.
+  </p>
 
 </body>
 </html>
